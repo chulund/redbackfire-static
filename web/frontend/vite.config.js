@@ -7,7 +7,7 @@ function readEnvValue(filePath, key) {
   if (!existsSync(filePath)) return null
   const contents = readFileSync(filePath, 'utf8')
   const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const match = contents.match(new RegExp(`^\\s*${escapedKey}\\s*=\\s*(.*)\\s*$`, 'm'))
+  const match = contents.match(new RegExp(`^[ \t]*${escapedKey}[ \t]*=[ \t]*(.*)[ \t]*$`, 'm'))
   if (!match) return null
   const rawValue = match[1].trim()
   if (!rawValue) return ''
