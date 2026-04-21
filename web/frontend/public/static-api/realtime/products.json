@@ -1,0 +1,1 @@
+{"products":[{"id":"bright_s3","label":"BRIGHT AHI v2.0","satellite":"Himawari-9","sensor":"AHI","group":"AHI","source":"s3","is_primary":true},{"id":"bright_ahi","label":"BRIGHT AHI v1.86","satellite":"Himawari-9","sensor":"AHI","group":"AHI","source":"wfs","is_primary":true}]}

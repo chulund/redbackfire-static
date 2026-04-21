@@ -1,0 +1,19 @@
+node_modules/
+dist/
+dist-ssr/
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local env overrides
+.env.local
+.env.*.local
+
+# Local archive-source downloads
+temp/
