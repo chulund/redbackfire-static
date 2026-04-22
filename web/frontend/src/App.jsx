@@ -215,7 +215,7 @@ export default function App() {
   const rtStatus = useRealtimeStatus(10000);
   const allProducts = useRealtimeProducts();
   const [activeProducts, setActiveProducts] = useState(['bright_ahi', 'bright_s3']);
-  const [simulationProductId, setSimulationProductId] = useState('bright_s3');
+  const [simulationProductId, setSimulationProductId] = useState('bright_ahi');
   const [showAsPolygons, setShowAsPolygons] = useState(false);
   const [hotspotMonitoringHours, setHotspotMonitoringHours] = useState(getInitialMonitoringWindowHours);
   const realtimeWindow = useMemo(
