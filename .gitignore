@@ -17,3 +17,5 @@ dist-ssr/
 
 # Local archive-source downloads
 temp/
+entities.json
+mempalace.yaml
